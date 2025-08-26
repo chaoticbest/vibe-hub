@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ChaoticBest Vibes</title>
+<link rel="stylesheet" href="/styles.css" />
+<body>
+  <header>
+    <h1>100 Vibe-coded Apps</h1>
+    <input id="q" placeholder="Search apps… (name, id, tag)" autofocus />
+    <div id="meta"></div>
+  </header>
+
+  <main id="list" class="grid"></main>
+
+  <template id="card">
+    <article class="card">
+      <h2 class="name"></h2>
+      <p class="desc"></p>
+      <div class="tags"></div>
+      <div class="links">
+        <a class="run" target="_blank" rel="noopener">Run</a>
+        <a class="blog" target="_blank" rel="noopener">Blog</a>
+        <a class="repo" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <small class="dates"></small>
+    </article>
+  </template>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

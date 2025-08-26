@@ -1,0 +1,13 @@
+{
+    "name": "vibe-hub",
+    "version": "0.1.0",
+    "type": "module",
+    "private": true,
+    "dependencies": {
+      "express": "^4.19.2"
+    },
+    "scripts": {
+      "start": "node server.js"
+    }
+  }
+  
